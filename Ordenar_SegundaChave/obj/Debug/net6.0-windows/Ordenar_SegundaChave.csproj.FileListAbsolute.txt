@@ -1,0 +1,17 @@
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\bin\Debug\net6.0-windows\Ordenar_SegundaChave.exe
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\bin\Debug\net6.0-windows\Ordenar_SegundaChave.deps.json
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\bin\Debug\net6.0-windows\Ordenar_SegundaChave.runtimeconfig.json
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\bin\Debug\net6.0-windows\Ordenar_SegundaChave.dll
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\bin\Debug\net6.0-windows\Ordenar_SegundaChave.pdb
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.csproj.AssemblyReference.cache
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.Form1.resources
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.csproj.GenerateResource.cache
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.AssemblyInfoInputs.cache
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.AssemblyInfo.cs
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.dll
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\refint\Ordenar_SegundaChave.dll
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.pdb
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\Ordenar_SegundaChave.genruntimeconfig.cache
+C:\Users\laboratorio\source\repos\Ordenar_SegundaChave\Ordenar_SegundaChave\obj\Debug\net6.0-windows\ref\Ordenar_SegundaChave.dll
