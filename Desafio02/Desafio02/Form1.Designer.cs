@@ -133,7 +133,7 @@
             this.Controls.Add(this.button_limparTelas);
             this.Controls.Add(this.button_selecionarMetodo);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Metodos Ordenação";
             this.ResumeLayout(false);
             this.PerformLayout();
 
