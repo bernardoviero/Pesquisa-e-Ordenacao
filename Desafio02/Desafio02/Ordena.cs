@@ -13,64 +13,76 @@ namespace Desafio02
         public String ordenarNumeros(int metodo, List<int> listaNumeros)
         {
             MetodosOrdenacao metodosOrdenacao = new MetodosOrdenacao();
+
+            Stopwatch sw = new Stopwatch();
+            sw.Reset();
             String tempoExecucao="";
             switch (metodo)
             {
                 case 0:
+                    sw.Start();
                     metodosOrdenacao.bolha(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
+   
                 case 1:
+                    sw.Start();
                     metodosOrdenacao.selecao(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 2:
+                    sw.Start();
                     metodosOrdenacao.insercao(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 3:
+                    sw.Start();
                     metodosOrdenacao.agitacao(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 4:
+                    sw.Start();
                     metodosOrdenacao.pente(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 5:
+                    sw.Start();
                     metodosOrdenacao.shell(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 6:
+                    sw.Start();
                     metodosOrdenacao.quick(listaNumeros,0,listaNumeros.Count -1);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 7:
+                    sw.Start();
                     metodosOrdenacao.heap(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
                     break;
                 case 8:
                     /*
+                    sw.Start();
                     metodosOrdenacao.marge(listaNumeros);
-                    tempoExecucao = tempoOrdenacao();
-                    */
-                    break;
+                    sw.Stop();
+                    tempoExecucao = "Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds + "milisegundos";
+                    
+                    break;*/
+                    
                 default:
                     tempoExecucao = "Erro!!\r\nNenhum número foi digitado\r\nPor favor digite um número.";
                     break;
             }
 
             return tempoExecucao;
-        }
-        private String tempoOrdenacao()
-        {
-            var sw = new Stopwatch();
-            sw.Start();
-            for (int i = 0; i < 1000000; i++)
-            {
-                //não faz nada
-            }
-            sw.Stop();
-            return ("Tempo gasto para ordenar : " + "\r\n" + sw.ElapsedMilliseconds.ToString() + "milisegundos");
         }
     }
 }
